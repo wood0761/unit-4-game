@@ -1,0 +1,78 @@
+html, body{
+    background-color: black;
+    height: 100%;
+    margin: 0;
+     /* Full height */
+     height: 100%; 
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.jumbotron{
+    text-align: center;
+    color: rgb(244, 244, 10);
+    background-color: black;
+}
+h2{
+    text-align: center;
+    color: rgb(244, 244, 10);
+}
+img{
+    height: 300px;
+    width: 230px;
+}
+img:hover{
+    border: 2px solid white;
+}
+#battleScreenHeader{
+    padding-top: 200px;
+    height: 50%;
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}
+#battleScreenImages{
+    padding-top: 200px;
+}
+#enemySelectPrompt{
+    color: rgb(244, 244, 10);
+    font-size: 50px;
+    text-align: center;
+}
+#enemySelectImages{
+    margin-top: 150px;
+}
+#hero{
+    padding-top: 200px;
+    padding-left: 70px;
+}
+#opponent{
+    padding-top: 200px;
+    padding-left: 85px;
+}
+#attackButton{
+    padding-top: 300px;
+}
+#heroHP{
+    padding-left: 100px;
+    font-size: 50px;
+    color: rgb(244, 244, 10);
+}
+#opponentHP{
+    padding-left: 95px;
+    font-size: 50px;
+    color: red;
+}
+#heroDamage{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(244, 244, 10);
+}
+#opponentDamage{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(244, 244, 10);
+}
+
